@@ -1,5 +1,5 @@
 package ex01;
-/* csv format- comma seperator variable
+/* csv format- commprivate Stringseperator variable
 1,P01,10,1250.0
 2,P02,15,2000.0
 3,P03,30,1500.0
@@ -21,7 +21,7 @@ interface Ipo {
 }
 
 // Date 담당 class 1,P01,10,1250.0
-// DTO : Data Transfer Object - 순수 date
+// DTO : Datprivate StringTransfer Object - 순수 date
 // VO  : Value Object         - 가공 data
 class ProdVo {
 	// 입력:번호,제품코드,수량,단가

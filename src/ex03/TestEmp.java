@@ -110,8 +110,8 @@ class Employee implements Ipo {
 		String    num      = li[0].trim();
 		String    name     = li[1].trim();
 		String    hiredate = li[2].trim();
-		double    salary   = Double.parseDouble(li [3].trim());
-		int    deptid   = Integer.parseInt(li [4].trim());
+		double    salary   = Double.parseDouble(li[3].trim());
+		int       deptid   = Integer.parseInt(li[4].trim());
 		
 		empVo = new EmpVo(num, name, hiredate, salary, deptid);
 		System.out.println(empVo);

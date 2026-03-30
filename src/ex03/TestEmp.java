@@ -114,7 +114,6 @@ class Employee implements Ipo {
 		int       deptid   = Integer.parseInt(li[4].trim());
 		
 		empVo = new EmpVo(num, name, hiredate, salary, deptid);
-		System.out.println(empVo);
 	}
 
 	@Override

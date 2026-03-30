@@ -35,8 +35,6 @@ class EmpVo {
 		this.deptid = deptid;
 	}
 
-
-
 	// Getter, Setter
 	public String getNum() {
 		return num;
